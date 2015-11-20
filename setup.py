@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 try:
     from setuptools import setup
 except ImportError:
@@ -31,5 +32,9 @@ setup(
         "Topic :: System :: Systems Administration",
         "Topic :: Utilities"
   ],
-  install_requires=[],
+  install_requires=[
+      'argparse',
+      'demjson',
+      'prettytable',
+  ],
 )
